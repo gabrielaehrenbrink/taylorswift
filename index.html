@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Taylor Swift</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="clock_style.css">
+  <script type="text/javascript">
+    window.onload = setInterval(clock, 1000);
+
+    function clock() {
+      var d = new Date();
+
+      var date = d.getDate();
+
+      var month = d.getMonth();
+      var montharr = ["Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      month = montharr[month];
+
+      var year = d.getFullYear();
+
+      var day = d.getDay();
+      var dayarr = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
+      day = dayarr[day];
+
+      var hour = d.getHours();
+      var min = d.getMinutes();
+      var sec = d.getSeconds();
+
+      document.getElementById("date").innerHTML = day + " " + date + " " + month + " " + year;
+      document.getElementById("time").innerHTML = hour + ":" + min + ":" + sec;
+    }
+  </script>
+
+  <!-- Fonts -->
+  <script src="https://kit.fontawesome.com/a68f063352.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body style="background-color: #E2D5F1;">
+
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid" style="background-color: #4E4466;">
+      <a class="navbar-brand" href="#" style="color: #E2D5F1;">Taylor Swift</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#profile" style="color: #E2D5F1;">Who is she?</a>
+          <a class="nav-link" href="#albuns" style="color: #E2D5F1;">Work</a>
+          <a class="nav-link" href="#awards" style="color: #E2D5F1;">Grammy Awards</a>
+          <a class="nav-link" href="#footer" style="color: #E2D5F1;">More</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Who is Taylor -->
+
+  <div class="row who">
+
+
+    <div class="col-lg-12">
+      <img class="title-image" src="images/tayloralbumcovers1.jpg" alt="taylor-albuns">
+    </div>
+
+    <div class="col-lg-4" id="profile">
+      <h1>Meet the artist...</h1>
+      <img class="profile-pic" src="images/profile.jpg" alt="profile">
+    </div>
+    <div class="col-lg-8">
+      <h6>Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her discography spans multiple genres and her narrative songwriting—often inspired by her personal life—has received critical praise and widespread media
+        coverage. Born in West Reading, Pennsylvania, Swift moved to Nashville, Tennessee, at age 14 to become a country artist. Having sold over 200 million records globally, Swift is one of the best-selling musicians of all time. She is the only act with five albums that opened with over one million copies sold in the US. Among her accolades are 11 Grammy Awards,
+        including three Album of the Year wins; an Emmy Award; 34 American Music Awards; 29 Billboard Music Awards; and 84 Guinness World Records. She has featured on rankings such as Rolling Stone's 100 Greatest Songwriters of All Time, Billboard's
+        Greatest of All Time Artists, the Time 100 and Forbes Celebrity 100. Honored with titles such as Artist of the Decade and Woman of the Decade, Swift is an advocate for artists' rights and women's empowerment. Her music is credited with
+        influencing a generation of singer-songwriters.</h6>
+      <p>Source: https://en.wikipedia.org/wiki/Taylor_Swift</p>
+    </div>
+    <a href="https://www.taylorswift.com/" type="button" class="btn btn-light" id="btn">Go to official website</a>
+  </div>
+
+
+  <!-- Work -->
+
+
+  <section id="albuns">
+
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Taylor Swift</h2>
+          <h5 class="testimonial-text">Released October 2006 with Big Machine label, this was her first album. Drawing on her personal life, the songs reflect Swift's outlook on life as a teenager, dealing with romantic relationships, friendships, and insecurity.</h5>
+          <img class="album-image" src="images/tayloralbum1.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Fearless</h2>
+          <h5>Released November 2008 with Big Machine label, Swift wrote seven of the thirteen songs on the standard edition by herself and, in her debut as a record producer, co-produced all songs with Nathan Chapman.</h5>
+          <img class="album-image" src="images/fearless.jpg" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Speak Now</h2>
+          <h5>Released October 2010 with Big Machine label. Inspired by Swift's transition from adolescence into adulthood, Speak Now is a loose concept album about her confessions regarding love and heartache, with some songs about her public image.
+          </h5>
+          <img class="album-image" src="images/speaknow.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Red</h2>
+          <h5>Released October 2012, the album's title refers to the tumultuous, "red" emotions Swift experienced during the album's conception; its songs discuss the complex and conflicting feelings resulting from fading
+            romance.</h5>
+          <img class="album-image" src="images/red.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>1989</h2>
+          <h5>Released October 2014, after music critics questioned her status as a country musician, Swift was inspired by 1980s synth-pop to recalibrate her artistry from country to pop music.</h5>
+          <img class="album-image" src="images/1989.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Reputation</h2>
+          <h5>Released November 2017 with Big Machine label. Swift wrote Reputation under two major themes: the excessive gossip surrounding her, and finding love during tumultuous events.</h5>
+          <img class="album-image" src="images/reputation.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Lover</h2>
+          <h5>Released August 2019 with Republic label. Swift conceived Lover as a "love letter to love", taking inspiration from her recalibrated personal life and newfound artistic freedom.</h5>
+          <img class="album-image" src="images/lover.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Folklore</h2>
+          <h5>Released July 2020 with Republic label. During quarantine, Taylor conceived Folklore as "a collection of songs and stories that flowed like a stream of consciousness".</h5>
+          <img class="album-image" src="images/folklore.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Evermore</h2>
+          <h5>Released December 2020 with Republic label. Evermore was a spontaneous product of Swift's extended collaboration with her Folklore collaborator Aaron Dessner, mainly recorded at his Long Pond Studio in the Hudson Valley.</h5>
+          <img class="album-image" src="images/evermore.png" alt="album">
+        </div>
+        <div class="carousel-item">
+          <h2>Midnights</h2>
+          <h5>Released October 2022 with Republic label. The album was a major commercial success across all formats of music consumption, breaking numerous records globally.</h5>
+          <img class="album-image" src="images/midnights.png" alt="album">
+        </div>
+
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </section>
+
+  <!-- Records -->
+
+  <div class="list-group" id="awards">
+    <a href="https://www.grammy.com/artists/taylor-swift/15450" class="list-group-item list-group-item-action active table" aria-current="true" style="background-color: #526D85; color: #E2D5F1;">
+      Grammy Awards
+    </a>
+    <a class="list-group-item list-group-item-action disabled" style="background-color: #C9E8FD; color: #4E4466;">2010 - Album of the year, Best Country Album, Best Female Country Vocal Performance, Best Country Song.</a>
+    <a class="list-group-item list-group-item-action disabled" style="background-color: #C9E8FD; color: #4E4466;">2012 - Best Country Solo Performance, Best Country Song.</a>
+    <a class="list-group-item list-group-item-action disabled" style="background-color: #C9E8FD; color: #4E4466;">2013 - Best Song Written for Visual Media.</a>
+    <a class="list-group-item list-group-item-action disabled" style="background-color: #C9E8FD; color: #4E4466;">2016 - Album of the Year, Best Pop Vocal Album, Best Music Video.</a>
+    <a class="list-group-item list-group-item-action disabled" style="background-color: #C9E8FD; color: #4E4466;">2021 - Album of the Year.</a>
+
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+
+    <a href="https://twitter.com/taylorswift13" class="fa-brands fa-twitter"></a>
+    <a href="https://www.instagram.com/taylorswift/" class="fa-brands fa-instagram"></a>
+    <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" class="fa-brands fa-spotify"></a>
+
+    <p>© Gabriela Ehrenbrink</p>
+
+  </footer>
+
+  <!-- clock -->
+  <table>
+    <tr>
+      <th class="clock">
+      <th id="date"></th>
+      <th id="time"></th>
+    </tr>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,107 @@
+
+.title-image{
+  width: 100%;
+}
+
+.who{
+  background-color: #E2D5F1;
+}
+
+.clock{
+position: relative; left: 80%;
+}
+
+#profile{
+  padding: 5%;
+  text-align: center;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 50rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #4E4466;
+}
+
+h6{
+  font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+margin: 8%;
+padding-top: 8%;
+font-size: 1.5rem;
+text-align: justify;
+color: #4E4466;
+}
+
+p{
+  font-size: 0.5rem;
+  color: #4E4466;
+}
+
+#profile-pic{
+  width: 100rem;
+}
+
+#btn {
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #E2D5F1;
+  font-size: 20px;
+  background: #4E4466;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #B8ACD1;
+  text-decoration: none;
+}
+
+#albuns{
+  padding: 5%;
+  background-color: #E2D5F1;
+  text-align: center;
+  color: #4E4466;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+h5{
+  margin: 5% 20%;
+  text-align: justify;
+}
+
+.album-image{
+  width: 20%;
+  padding: 3%
+}
+
+#awards{
+  background-color: #4E4466;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 3%;
+}
+
+#footer{
+  padding: 5% 15%;
+  background-color: #E2D5F1;
+  text-align: center;
+}
+
+
+.fa-brands {
+  margin: 10px;
+  font-size: 2rem;
+  color: #4E4466;
+}
+
+table{
+  color: #4E4466;
+}
